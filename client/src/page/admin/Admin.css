@@ -1,0 +1,8 @@
+@media screen and (max-width: 900px) {
+  .side-bar {
+    display: none;
+  }
+  .btn-menuss{
+    display: block;
+  }
+}

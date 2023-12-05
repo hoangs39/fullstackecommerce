@@ -1,0 +1,42 @@
+.promotion-tag-item {
+box-sizing: border-box;
+margin: 4px 15px 4px 0;
+max-width: 100%;
+}
+
+.promotion-tag-item.has-arrow {
+padding-right: 25px;
+cursor: pointer;
+}
+
+.promotion-tag-item.has-arrow::before {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    content: "";
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px;
+}
+
+.promotion-tag-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 12px 0 8px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #f57224;
+}
+
+.promotion-tag-item::after {
+    position: absolute;
+    top: 0;
+    right: -7px;
+    display: inline-block;
+    content: "";
+    border-color: #ff9800 transparent;
+    border-style: solid;
+    border-width: 12px 7px;
+}

@@ -1,0 +1,16 @@
+/* Add these styles to your CSS file */
+.cart-modal {
+    position: absolute;
+    top: 0;
+    right: -400px; /* Adjust the value to control the slide-in width */
+    transition: right 0.3s ease-in-out;
+    height: 100%;
+    max-height: 100%;
+    width: 400px; /* Width of the slide-in modal */
+    transform: translateX(100%);
+  }
+  
+  .cart-modal.show {
+    right: 0;
+    transform: translateX(0);
+  }
